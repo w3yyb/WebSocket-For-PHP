@@ -1,6 +1,7 @@
 {
     "name": "omgzui/web-socket-for-php",
     "description": "WebSocket PHP",
+    "keywords": ["socket", "php"],
     "license": "MIT",
     "type": "project",
     "authors": [
@@ -9,7 +10,9 @@
             "email": "862275679@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app/"
@@ -20,5 +23,6 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
