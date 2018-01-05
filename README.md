@@ -5,6 +5,8 @@
 ```bash
 
 git clone https://github.com/OMGZui/WebSocket-For-PHP.git
+or
+composer create-project --prefer-dist omgzui/web-socket-for-php
 
 composer install
 
