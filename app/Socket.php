@@ -81,6 +81,7 @@ class Socket
                     } else {
                         // 发送消息
                         $buffer = $this->decode($buffer);
+                        $buffer='server say:'.$buffer;
                         $this->send($socket, $buffer);
                     }
                 }
